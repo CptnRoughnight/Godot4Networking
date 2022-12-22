@@ -1,0 +1,69 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Jnr/1.0.0": {
+        "dependencies": {
+          "Godot.SourceGenerators": "4.0.0-beta.9",
+          "GodotSharp": "4.0.0-beta.9",
+          "GodotSharpEditor": "4.0.0-beta.9"
+        },
+        "runtime": {
+          "Jnr.dll": {}
+        }
+      },
+      "Godot.SourceGenerators/4.0.0-beta.9": {},
+      "GodotSharp/4.0.0-beta.9": {
+        "runtime": {
+          "lib/net6.0/GodotSharp.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "GodotSharpEditor/4.0.0-beta.9": {
+        "dependencies": {
+          "GodotSharp": "4.0.0-beta.9"
+        },
+        "runtime": {
+          "lib/net6.0/GodotSharpEditor.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Jnr/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Godot.SourceGenerators/4.0.0-beta.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GmwcqYXlU5z4g6Vw8LPJmK4YIfZlNDxo0fPWNP6Y1i+AvSCOkL3E2J5lbAY/jOZMj/Tnbl0sRexTgxWv8IA+og==",
+      "path": "godot.sourcegenerators/4.0.0-beta.9",
+      "hashPath": "godot.sourcegenerators.4.0.0-beta.9.nupkg.sha512"
+    },
+    "GodotSharp/4.0.0-beta.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0MR2TOXsSr/pyJW9Td52qzwPae0Sy01bD5tK2PmWkuFmoLMbq2ik9ceTilYSpNiDBc2s7lCXzaVekosnjJVHPw==",
+      "path": "godotsharp/4.0.0-beta.9",
+      "hashPath": "godotsharp.4.0.0-beta.9.nupkg.sha512"
+    },
+    "GodotSharpEditor/4.0.0-beta.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W3SpAvMqRRUwtPltUHgWQNNbqBOX5XYEkcZYc9/XJeOIjYACBb6A2F8H6D7HwWHfHsnlKxco6vxQE9IAS5RHHQ==",
+      "path": "godotsharpeditor/4.0.0-beta.9",
+      "hashPath": "godotsharpeditor.4.0.0-beta.9.nupkg.sha512"
+    }
+  }
+}

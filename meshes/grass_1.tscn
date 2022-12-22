@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dwrtlmrc1wrgi"]
+
+[ext_resource type="ArrayMesh" uid="uid://c6p265sk6g6cn" path="res://meshes/grass_mesh.tres" id="1_o3ufx"]
+[ext_resource type="Texture2D" uid="uid://dwqsm6x34vfw1" path="res://assets/foliage/grass1.png" id="2_7nitm"]
+
+[node name="Grass1" type="MeshInstance2D"]
+position = Vector2(34, 90)
+mesh = ExtResource("1_o3ufx")
+texture = ExtResource("2_7nitm")

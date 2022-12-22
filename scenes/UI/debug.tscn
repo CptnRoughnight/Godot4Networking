@@ -1,0 +1,37 @@
+[gd_scene load_steps=2 format=3 uid="uid://cdn3u3itkhleq"]
+
+[ext_resource type="Script" path="res://scenes/UI/debug.cs" id="1_ge4l4"]
+
+[node name="Debug" type="CanvasLayer"]
+script = ExtResource("1_ge4l4")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+offset_right = 640.0
+offset_bottom = 360.0
+theme_override_constants/separation = -3
+
+[node name="FPS" type="Label" parent="MarginContainer/VBoxContainer"]
+offset_right = 640.0
+offset_bottom = 23.0
+
+[node name="CamPos" type="Label" parent="MarginContainer/VBoxContainer"]
+offset_top = 20.0
+offset_right = 640.0
+offset_bottom = 43.0
+
+[node name="PlayerPos" type="Label" parent="MarginContainer/VBoxContainer"]
+offset_top = 40.0
+offset_right = 640.0
+offset_bottom = 63.0
+
+[node name="Chunks" type="Label" parent="MarginContainer/VBoxContainer"]
+offset_top = 60.0
+offset_right = 640.0
+offset_bottom = 83.0

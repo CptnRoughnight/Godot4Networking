@@ -1,0 +1,64 @@
+[gd_scene load_steps=5 format=3 uid="uid://bgbwsv4rq7br3"]
+
+[ext_resource type="Texture2D" uid="uid://dk3wu7rtqbwbp" path="res://assets/ui/inventar_hotbar.png" id="1_7v0rw"]
+[ext_resource type="Script" path="res://scenes/UI/inventar_hotbar.cs" id="1_wyxko"]
+[ext_resource type="Texture2D" uid="uid://diumum4sris2u" path="res://assets/ui/inventar_select.png" id="3_7dd7l"]
+[ext_resource type="Texture2D" uid="uid://claea8mb04wlg" path="res://assets/ui/inventory.png" id="4_qp4ki"]
+
+[node name="InventarHotbar" type="CanvasLayer"]
+script = ExtResource("1_wyxko")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = -5
+theme_override_constants/margin_bottom = -5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+offset_left = 5.0
+offset_top = 10.0
+offset_right = 645.0
+offset_bottom = 365.0
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+offset_right = 640.0
+offset_bottom = 34.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/HBoxContainer4"]
+offset_right = 180.0
+offset_bottom = 34.0
+size_flags_horizontal = 3
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="MarginContainer/VBoxContainer/HBoxContainer4"]
+offset_left = 184.0
+offset_right = 456.0
+offset_bottom = 34.0
+
+[node name="Hotbar" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer4/HBoxContainer2"]
+offset_right = 272.0
+offset_bottom = 34.0
+texture = ExtResource("1_7v0rw")
+
+[node name="SelectRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/Hotbar"]
+offset_left = 4.0
+offset_top = 5.0
+offset_right = 28.0
+offset_bottom = 29.0
+texture = ExtResource("3_7dd7l")
+
+[node name="inventory" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/Hotbar"]
+offset_top = -300.0
+offset_right = 272.0
+offset_bottom = -28.0
+texture = ExtResource("4_qp4ki")
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="MarginContainer/VBoxContainer/HBoxContainer4"]
+offset_left = 460.0
+offset_right = 640.0
+offset_bottom = 34.0
+size_flags_horizontal = 3

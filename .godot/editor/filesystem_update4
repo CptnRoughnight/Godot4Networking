@@ -1,0 +1,7 @@
+res://scenes/main.tscn
+res://scenes/UI/debug.tscn
+res://scenes/Trees/tree1.tscn
+res://scenes/player/player.tscn
+res://scenes/UI/multiplayer_start.tscn
+res://scenes/maps/dynamicMap.tscn
+res://scenes/UI/inventar_hotbar.tscn

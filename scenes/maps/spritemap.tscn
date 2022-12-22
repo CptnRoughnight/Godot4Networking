@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://ti0pmuw81ws0"]
+
+[ext_resource type="Script" path="res://scenes/maps/spritemap.cs" id="1_r77m6"]
+
+[node name="SpriteMap" type="Node2D"]
+script = ExtResource("1_r77m6")

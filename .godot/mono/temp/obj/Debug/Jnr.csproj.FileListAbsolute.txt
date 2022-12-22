@@ -1,0 +1,17 @@
+E:\projects_2022\A_Godot\platformer\.godot\mono\temp\bin\Debug\Jnr.deps.json
+E:\projects_2022\A_Godot\platformer\.godot\mono\temp\bin\Debug\Jnr.runtimeconfig.json
+E:\projects_2022\A_Godot\platformer\.godot\mono\temp\bin\Debug\Jnr.dll
+E:\projects_2022\A_Godot\platformer\.godot\mono\temp\bin\Debug\Jnr.pdb
+E:\projects_2022\A_Godot\platformer\.godot\mono\temp\bin\Debug\GodotSharp.dll
+E:\projects_2022\A_Godot\platformer\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+E:\projects_2022\A_Godot\platformer\.godot\mono\temp\obj\Debug\Jnr.csproj.AssemblyReference.cache
+E:\projects_2022\A_Godot\platformer\.godot\mono\temp\obj\Debug\Jnr.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects_2022\A_Godot\platformer\.godot\mono\temp\obj\Debug\Jnr.AssemblyInfoInputs.cache
+E:\projects_2022\A_Godot\platformer\.godot\mono\temp\obj\Debug\Jnr.AssemblyInfo.cs
+E:\projects_2022\A_Godot\platformer\.godot\mono\temp\obj\Debug\Jnr.csproj.CoreCompileInputs.cache
+E:\projects_2022\A_Godot\platformer\.godot\mono\temp\obj\Debug\Jnr.csproj.CopyComplete
+E:\projects_2022\A_Godot\platformer\.godot\mono\temp\obj\Debug\Jnr.dll
+E:\projects_2022\A_Godot\platformer\.godot\mono\temp\obj\Debug\refint\Jnr.dll
+E:\projects_2022\A_Godot\platformer\.godot\mono\temp\obj\Debug\Jnr.pdb
+E:\projects_2022\A_Godot\platformer\.godot\mono\temp\obj\Debug\Jnr.genruntimeconfig.cache
+E:\projects_2022\A_Godot\platformer\.godot\mono\temp\obj\Debug\ref\Jnr.dll

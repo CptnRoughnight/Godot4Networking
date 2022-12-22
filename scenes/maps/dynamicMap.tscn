@@ -1,0 +1,44 @@
+[gd_scene load_steps=9 format=3 uid="uid://loeuvqlk7mcx"]
+
+[ext_resource type="Texture2D" uid="uid://bncd2d1wgcohe" path="res://assets/1 Tiles/tileset2.png" id="1_v34x4"]
+[ext_resource type="Script" path="res://scenes/maps/dynamicMap.cs" id="2_fxyto"]
+[ext_resource type="ArrayMesh" uid="uid://co1hfo4tlp5m0" path="res://meshes/grass_mesh2.tres" id="3_e03e7"]
+[ext_resource type="Texture2D" uid="uid://bpq87ener78k4" path="res://assets/foliage/grass2.png" id="4_16c48"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_il58d"]
+texture = ExtResource("1_v34x4")
+0:0/next_alternative_id = 2
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:0/1 = 1
+0:0/1/modulate = Color(0.784314, 0.784314, 0.784314, 1)
+0:0/1/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/1/physics_layer_0/angular_velocity = 0.0
+1:0/0 = 0
+1:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+1:0/0/physics_layer_0/angular_velocity = 0.0
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSet" id="TileSet_vkowy"]
+physics_layer_0/collision_layer = 1
+physics_layer_0/collision_mask = 0
+sources/0 = SubResource("TileSetAtlasSource_il58d")
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_6b3tn"]
+noise_type = 0
+frequency = 0.001
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_2isqu"]
+frequency = 0.05
+
+[node name="DynamicMap" type="TileMap"]
+tile_set = SubResource("TileSet_vkowy")
+format = 2
+script = ExtResource("2_fxyto")
+terrainNoise = SubResource("FastNoiseLite_6b3tn")
+GrassMesh = ExtResource("3_e03e7")
+GrassTexture = ExtResource("4_16c48")
+vegetationNoise = SubResource("FastNoiseLite_2isqu")
+ActiveChunks = 2

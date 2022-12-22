@@ -1,0 +1,99 @@
+[gd_scene load_steps=2 format=3 uid="uid://ctpxtvooa74ad"]
+
+[ext_resource type="Script" path="res://scenes/UI/MultiplayerStart.cs" id="1_40yxj"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="MultiplayerStart" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_40yxj")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MultiplayerStart"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MultiplayerStart/VBoxContainer"]
+offset_right = 640.0
+offset_bottom = 31.0
+
+[node name="Label" type="Label" parent="MultiplayerStart/VBoxContainer/HBoxContainer"]
+offset_top = 2.0
+offset_right = 55.0
+offset_bottom = 28.0
+text = "Name :"
+
+[node name="PlayerName" type="LineEdit" parent="MultiplayerStart/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(240, 0)
+offset_left = 59.0
+offset_right = 299.0
+offset_bottom = 31.0
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="MultiplayerStart/VBoxContainer"]
+offset_top = 35.0
+offset_right = 640.0
+offset_bottom = 66.0
+
+[node name="Label" type="Label" parent="MultiplayerStart/VBoxContainer/HBoxContainer2"]
+offset_top = 2.0
+offset_right = 24.0
+offset_bottom = 28.0
+text = "IP :"
+
+[node name="IP" type="LineEdit" parent="MultiplayerStart/VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(240, 0)
+offset_left = 28.0
+offset_right = 268.0
+offset_bottom = 31.0
+text = "127.0.0.1"
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="MultiplayerStart/VBoxContainer"]
+offset_top = 70.0
+offset_right = 640.0
+offset_bottom = 101.0
+
+[node name="Label" type="Label" parent="MultiplayerStart/VBoxContainer/HBoxContainer3"]
+offset_top = 2.0
+offset_right = 42.0
+offset_bottom = 28.0
+text = "Port :"
+
+[node name="Port" type="LineEdit" parent="MultiplayerStart/VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(240, 0)
+offset_left = 46.0
+offset_right = 286.0
+offset_bottom = 31.0
+text = "4242"
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="MultiplayerStart/VBoxContainer"]
+offset_top = 105.0
+offset_right = 640.0
+offset_bottom = 136.0
+
+[node name="Create" type="Button" parent="MultiplayerStart/VBoxContainer/HBoxContainer4"]
+offset_right = 113.0
+offset_bottom = 31.0
+text = "Create Server"
+
+[node name="Join" type="Button" parent="MultiplayerStart/VBoxContainer/HBoxContainer4"]
+offset_left = 117.0
+offset_right = 208.0
+offset_bottom = 31.0
+text = "Join Server"
+
+[node name="SinglePlayer" type="Button" parent="MultiplayerStart/VBoxContainer/HBoxContainer4"]
+offset_left = 212.0
+offset_right = 315.0
+offset_bottom = 31.0
+text = "Singleplayer"
+
+[connection signal="pressed" from="MultiplayerStart/VBoxContainer/HBoxContainer4/Create" to="MultiplayerStart" method="_on_create_pressed"]
+[connection signal="pressed" from="MultiplayerStart/VBoxContainer/HBoxContainer4/Join" to="MultiplayerStart" method="_on_join_pressed"]
+[connection signal="pressed" from="MultiplayerStart/VBoxContainer/HBoxContainer4/SinglePlayer" to="MultiplayerStart" method="_on_single_player_pressed"]

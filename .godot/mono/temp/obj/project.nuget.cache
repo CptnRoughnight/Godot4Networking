@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "5FwI3k/GrGI+7Yiz86P0GbvM0twvt3OTlBHz/F0fHEPihXWYGOef1s2yyqyrDH9TfTOZ6oYLLX8pC3O/5iUbhg==",
+  "success": true,
+  "projectFilePath": "E:\\projects_2022\\A_Godot\\platformer\\Jnr.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\schol\\.nuget\\packages\\godot.sourcegenerators\\4.0.0-beta.9\\godot.sourcegenerators.4.0.0-beta.9.nupkg.sha512",
+    "C:\\Users\\schol\\.nuget\\packages\\godotsharp\\4.0.0-beta.9\\godotsharp.4.0.0-beta.9.nupkg.sha512",
+    "C:\\Users\\schol\\.nuget\\packages\\godotsharpeditor\\4.0.0-beta.9\\godotsharpeditor.4.0.0-beta.9.nupkg.sha512"
+  ],
+  "logs": []
+}

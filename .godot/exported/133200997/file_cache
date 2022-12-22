@@ -1,0 +1,15 @@
+res://dummy/multi_mesh_instance_2d.tscn::6c0b223733eed9180b86c5d802dae1c9::1671199771::res://.godot/exported/133200997/export-efed05a4b7731c2da0ee7488c50e8e7a-multi_mesh_instance_2d.scn
+res://meshes/grass_1.tscn::a9f476a8096b982143e9318388415e7f::1671199771::res://.godot/exported/133200997/export-efcd0d9a3f399d457727ad77f16289dc-grass_1.scn
+res://meshes/grass_mesh2.tres::352d01c7ced2db0e6596cb7702bca57c::1671199771::res://.godot/exported/133200997/export-216586c0db5ff9b64da16c49d227c0b5-grass_mesh2.res
+res://meshes/grass_mesh.tres::8b979ad98d8c6a00f02a280c43b0abf7::1671199771::res://.godot/exported/133200997/export-cddbb5a0f0ac737ed01133d5595cb6c3-grass_mesh.res
+res://scenes/maps/dynamicMap.tscn::7c26ccf62944fa854e3ad2d5323fe117::1671708566::res://.godot/exported/133200997/export-1765ad791f2081a6d2d300a7d347a54d-dynamicMap.scn
+res://scenes/maps/spritemap.tscn::6267995b106805503b02422293da958d::1671199771::res://.godot/exported/133200997/export-b0acd0642f820c84c81072973ae2fdb9-spritemap.scn
+res://scenes/maps/tile.tscn::217de368a3f6e0c5f2af671e894ba9f0::1671199771::res://.godot/exported/133200997/export-abe5f5f893ad68313fb15e1f2112bfd8-tile.scn
+res://scenes/player/player.tscn::209e4480987ded1813d253bf6857cbed::1671708566::res://.godot/exported/133200997/export-c2c62cb8c73458cd122faf659769dc80-player.scn
+res://scenes/player/player_frames.tres::28add6aa27c1a62cd2852fa4b6435789::1671199771::res://.godot/exported/133200997/export-5cbe57b20bf5ba34c165f5d0709d5e51-player_frames.res
+res://scenes/Trees/tree1.tscn::9d536444ff8a6c9e0cc221b3d6705157::1671708566::res://.godot/exported/133200997/export-fd65353e9da700f53d3c8c4fb736a080-tree1.scn
+res://scenes/UI/debug.tscn::7bc35e165c3f1c34bfc2d71aa91edf99::1671708566::res://.godot/exported/133200997/export-51a8f77e43c31f5dbabde3d85e0959f6-debug.scn
+res://scenes/UI/multiplayer_start.tscn::ff3f56193e25cbd833503c93dcd81bd6::1671708566::res://.godot/exported/133200997/export-925e01b92f1578bdaea30cff55bbeb58-multiplayer_start.scn
+res://scenes/main.tscn::3bc0dfb934e55167f9d6c3f26ad7ff89::1671708566::res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn
+res://tilesets/tileset1.tres::9c2671ecffce8d6a92d99bd2efe95a3c::1671199771::res://.godot/exported/133200997/export-aac7c46e46c40f2abe5133b60751fc0c-tileset1.res
+res://scenes/UI/inventar_hotbar.tscn::203d3b408abe71c4c56a705b51fda39b::1671708566::res://.godot/exported/133200997/export-f8725b782f3cd9176be4d6aa31a22f59-inventar_hotbar.scn

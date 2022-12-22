@@ -1,0 +1,20 @@
+[gd_scene load_steps=6 format=3 uid="uid://3qixhbs47yul"]
+
+[ext_resource type="Texture2D" uid="uid://dwqsm6x34vfw1" path="res://assets/foliage/grass1.png" id="1_ovruo"]
+[ext_resource type="PackedScene" uid="uid://dwrtlmrc1wrgi" path="res://meshes/grass_1.tscn" id="2_4i42p"]
+[ext_resource type="ArrayMesh" uid="uid://co1hfo4tlp5m0" path="res://meshes/grass_mesh2.tres" id="3_gpfej"]
+[ext_resource type="Texture2D" uid="uid://bpq87ener78k4" path="res://assets/foliage/grass2.png" id="4_sodup"]
+
+[sub_resource type="MultiMesh" id="MultiMesh_io0mx"]
+
+[node name="MultiMeshInstance2D" type="MultiMeshInstance2D"]
+position = Vector2(2, 2)
+multimesh = SubResource("MultiMesh_io0mx")
+texture = ExtResource("1_ovruo")
+
+[node name="Grass1" parent="." instance=ExtResource("2_4i42p")]
+
+[node name="Grass2" type="MeshInstance2D" parent="."]
+position = Vector2(-1017, 35)
+mesh = ExtResource("3_gpfej")
+texture = ExtResource("4_sodup")

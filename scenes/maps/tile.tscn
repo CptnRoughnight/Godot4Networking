@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://cc7owct6c6sha"]
+
+[ext_resource type="Texture2D" uid="uid://bncd2d1wgcohe" path="res://assets/1 Tiles/tileset2.png" id="1_jefcv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6ki0a"]
+size = Vector2(21.2228, 15.8618)
+
+[node name="Tile" type="Sprite2D"]
+texture_repeat = 1
+texture = ExtResource("1_jefcv")
+hframes = 8
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(3.27826e-07, 0)
+scale = Vector2(0.753904, 1.00871)
+shape = SubResource("RectangleShape2D_6ki0a")
+
+[node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="."]
