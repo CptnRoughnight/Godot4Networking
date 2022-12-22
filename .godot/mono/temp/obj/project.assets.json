@@ -94,11 +94,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\projects_2022\\A_Godot\\platformer\\Jnr.csproj",
+      "projectUniqueName": "E:\\Godot4Networking\\Godot4Networking\\Jnr.csproj",
       "projectName": "Jnr",
-      "projectPath": "E:\\projects_2022\\A_Godot\\platformer\\Jnr.csproj",
+      "projectPath": "E:\\Godot4Networking\\Godot4Networking\\Jnr.csproj",
       "packagesPath": "C:\\Users\\schol\\.nuget\\packages\\",
-      "outputPath": "E:\\projects_2022\\A_Godot\\platformer\\.godot\\mono\\temp\\obj\\",
+      "outputPath": "E:\\Godot4Networking\\Godot4Networking\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Users\\schol\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"

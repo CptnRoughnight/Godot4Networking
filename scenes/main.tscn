@@ -10,28 +10,28 @@
 [node name="Main" type="Node2D"]
 script = ExtResource("1_sq1mq")
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="Background" type="CanvasLayer" parent="."]
 layer = -1
 
-[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer"]
+[node name="Sprite2D" type="Sprite2D" parent="Background"]
 position = Vector2(349.5, 237.5)
 scale = Vector2(1.21354, 1.47222)
 texture = ExtResource("2_eod33")
 
-[node name="Parallax-mountain-montain-far" type="Sprite2D" parent="CanvasLayer"]
+[node name="Parallax-mountain-montain-far" type="Sprite2D" parent="Background"]
 position = Vector2(338, 219)
 texture = ExtResource("3_rhsp5")
 
-[node name="Sprite2D2" type="Sprite2D" parent="CanvasLayer"]
+[node name="Sprite2D2" type="Sprite2D" parent="Background"]
 position = Vector2(321, 235)
 scale = Vector2(1.21354, 1.47222)
 texture = ExtResource("3_1bxk0")
 
-[node name="Parallax-mountain-trees" type="Sprite2D" parent="CanvasLayer"]
+[node name="Parallax-mountain-trees" type="Sprite2D" parent="Background"]
 position = Vector2(266, 273)
 texture = ExtResource("5_m4fag")
 
-[node name="Parallax-mountain-trees2" type="Sprite2D" parent="CanvasLayer"]
+[node name="Parallax-mountain-trees2" type="Sprite2D" parent="Background"]
 position = Vector2(807, 273)
 texture = ExtResource("5_m4fag")
 

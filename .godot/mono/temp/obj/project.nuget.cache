@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5FwI3k/GrGI+7Yiz86P0GbvM0twvt3OTlBHz/F0fHEPihXWYGOef1s2yyqyrDH9TfTOZ6oYLLX8pC3O/5iUbhg==",
+  "dgSpecHash": "S28WFrAjS/DDUO47FyiiDtLXSAnkrOP0lsuaj533nxq63h5poz/MSdbUk2/6trl+e4tX/pObeKcZiDL7Dnc7Jw==",
   "success": true,
-  "projectFilePath": "E:\\projects_2022\\A_Godot\\platformer\\Jnr.csproj",
+  "projectFilePath": "E:\\Godot4Networking\\Godot4Networking\\Jnr.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\schol\\.nuget\\packages\\godot.sourcegenerators\\4.0.0-beta.9\\godot.sourcegenerators.4.0.0-beta.9.nupkg.sha512",
     "C:\\Users\\schol\\.nuget\\packages\\godotsharp\\4.0.0-beta.9\\godotsharp.4.0.0-beta.9.nupkg.sha512",

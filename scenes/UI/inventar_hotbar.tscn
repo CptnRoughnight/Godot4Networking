@@ -20,31 +20,24 @@ theme_override_constants/margin_right = -5
 theme_override_constants/margin_bottom = -5
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
-offset_left = 5.0
-offset_top = 10.0
-offset_right = 645.0
-offset_bottom = 365.0
+layout_mode = 2
 
 [node name="HBoxContainer4" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
-offset_right = 640.0
-offset_bottom = 34.0
+layout_mode = 2
 
 [node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/HBoxContainer4"]
-offset_right = 180.0
-offset_bottom = 34.0
+layout_mode = 2
 size_flags_horizontal = 3
 
 [node name="HBoxContainer2" type="HBoxContainer" parent="MarginContainer/VBoxContainer/HBoxContainer4"]
-offset_left = 184.0
-offset_right = 456.0
-offset_bottom = 34.0
+layout_mode = 2
 
 [node name="Hotbar" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer4/HBoxContainer2"]
-offset_right = 272.0
-offset_bottom = 34.0
+layout_mode = 2
 texture = ExtResource("1_7v0rw")
 
 [node name="SelectRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/Hotbar"]
+layout_mode = 0
 offset_left = 4.0
 offset_top = 5.0
 offset_right = 28.0
@@ -52,13 +45,12 @@ offset_bottom = 29.0
 texture = ExtResource("3_7dd7l")
 
 [node name="inventory" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/Hotbar"]
+layout_mode = 0
 offset_top = -300.0
 offset_right = 272.0
 offset_bottom = -28.0
 texture = ExtResource("4_qp4ki")
 
 [node name="HBoxContainer3" type="HBoxContainer" parent="MarginContainer/VBoxContainer/HBoxContainer4"]
-offset_left = 460.0
-offset_right = 640.0
-offset_bottom = 34.0
+layout_mode = 2
 size_flags_horizontal = 3

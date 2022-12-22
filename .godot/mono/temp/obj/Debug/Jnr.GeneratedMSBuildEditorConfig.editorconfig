@@ -1,5 +1,5 @@
 is_global = true
-build_property.GodotProjectDir = E:\projects_2022\A_Godot\platformer\
+build_property.GodotProjectDir = E:\Godot4Networking\Godot4Networking\
 build_property.GodotSourceGenerators = 
 build_property.IsGodotToolsProject = 
 build_property.TargetFramework = net6.0
@@ -11,4 +11,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Jnr
-build_property.ProjectDir = E:\projects_2022\A_Godot\platformer\
+build_property.ProjectDir = E:\Godot4Networking\Godot4Networking\
